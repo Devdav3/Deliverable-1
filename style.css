@@ -1,0 +1,180 @@
+body {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  margin: 0;
+
+}
+header {
+  background: #70a48b;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+}
+header img{
+  width: 220px;
+  transform: translateY(35%); 
+  border-radius: 10px;
+}
+
+footer {
+  background: #70a48b;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 0px;
+  margin: 0;
+  padding: 0;
+  
+}  
+
+footer img{
+  width: 35px;
+  margin: 0px;
+  border-radius: 10px;
+}
+
+
+button{
+  display: flex;
+  justify-content: space-between;
+  
+  padding: 3px 25px;
+  background-color: #1f211c;
+  color:white;
+  border: black;
+  border-radius: 10px;
+  padding: 3px;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: .7em;
+  padding-bottom: .7em;
+
+}
+
+.button{
+  background-color: #70a48b;
+  border: solid 2px black;
+  width: 100%;
+  padding: 15px;
+}
+
+nav{
+  padding: 15px;
+}
+
+.nav_links {
+display: inline-block;
+color: white;
+border: 2px solid;
+border-radius: 6px;
+padding: 15px;
+
+}
+
+.nav_links {
+  list-style: none; 
+  align-items: center;
+  /* display: flex;
+  justify-content: space-around;  */
+}
+
+.nav_links li {
+  display: inline-block;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  
+}
+
+section{
+  padding: 10px;
+}
+
+img{
+  width: 100%;
+  border-radius: 10px;
+}
+
+.friends{
+  margin: 35px;
+}
+
+
+.even-col{
+  display: flex;
+  justify-content: space-evenly;
+position: relative;
+bottom: 30px;
+gap: 15px;
+}
+.even-col{
+  flex-basis: 100%;
+}
+
+.col1{
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  
+}
+.col2{
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+@media screen and (min-width: 768px)  {
+  
+ header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+ }
+
+
+  .side-by-side{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    align-items: baseline;
+    padding: 20px;
+  }
+  .side-by-side-item1{
+    width: 33.3%;
+  }
+  .side-by-side-item2{
+    width: 66.7%;
+  }
+
+  .friends{
+    position: relative;
+    
+  }
+
+  .even-col{
+    display: flex;
+    flex-direction: column;
+  }
+
+.col1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.col2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+
+}
